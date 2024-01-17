@@ -4,7 +4,9 @@ public class palindrome {
 
 	public static void main(String[] args) {
 		
-		String str ="malayalam";
+		String str ="too hot to hoot";
+		 str = str.replaceAll(" ", "");
+		
 		char x[] = str.toCharArray();
 		
 		int size = str.length();
@@ -29,7 +31,7 @@ public class palindrome {
 			else
 			{
 				i++;
-				
+				continue;
 			}
 		}
 		
